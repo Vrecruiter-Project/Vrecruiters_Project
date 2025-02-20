@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-bg-image: url("./app/assests/images/aboutt.jpg");
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.carousel-inner {
+  display: flex;
+  animation: movetoleft 20s infinite linear;
+}
+
+@keyframes movetoleft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.hide-scroll {
+  /* Hide scrollbar for Internet Explorer, Edge, and older versions of Firefox */
+  -ms-overflow-style: none;
+
+  /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+  scrollbar-width: none; /* Firefox */
+
+  /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+  overflow: -scroll;
+}
+
+/* Webkit browsers */
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
