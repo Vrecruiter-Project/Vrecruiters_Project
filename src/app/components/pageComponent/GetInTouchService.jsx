@@ -25,10 +25,6 @@ const GetInTouchService = ({ theme, style }) => {
             <Typography variant='h5'>GET IN TOUCH</Typography>
             <Link href="#">V Recruiter</Link> <br />
             <Box mt={1}>
-              <Typography variant="body1" fontWeight={600}>
-                V Recruiter, 12th Unit, 12th Floor, Zirakpur, Punjab 140603
-              </Typography>
-             <Typography variant="body1" fontWeight={600}   >Or</Typography>
               <Typography variant="body1" fontWeight={600} mt={1}>
                 25th Unit, 3rd Floor, Zirakpur, Punjab 140603
               </Typography>
@@ -46,7 +42,7 @@ const GetInTouchService = ({ theme, style }) => {
                     width: "25px",
                     background: "linear-gradient(45deg, #D4A1FF 10%, #FF9E53 90%)",
                   }} />
-                  <Link href="tel:+919518035030">+91 95180 35030</Link>
+                  <Link href="tel:+919518035030">+91 9818737641</Link>
                 </Stack>
               </Grid>
               <Grid item xs={12} sm={6} md={6} sx={{

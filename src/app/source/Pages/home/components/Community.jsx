@@ -6,8 +6,8 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
-import communitypic1 from "../../../../assests/images/community.jpg";
-import communitypic2 from "../../../../assests/images/community2.jpg";
+import communitypic1 from "../../../../assests/images/Group_image1.jpg";
+import communitypic2 from "../../../../assests/images/Group_image2.jpg";
 import communitypic3 from "../../../../assests/images/community3.jpg";
 import { Grid } from "@mui/material";
 
