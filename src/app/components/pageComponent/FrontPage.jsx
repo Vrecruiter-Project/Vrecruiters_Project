@@ -62,7 +62,7 @@ export default function FrontPage({
             md={showBanner && isMobile ? 6 : 12}
             sx={{
               padding: "15px",
-              background: "linear-gradient(0deg, rgba(44,33,21,0.9) 100%)",
+              // background: "linear-gradient(0deg, rgba(44,33,21,0.9) 100%)", //issue
               "@media (min-width: 767px) and (max-width: 899px)": {
                 height: "auto", // Adjust carousel height for this range
               },
