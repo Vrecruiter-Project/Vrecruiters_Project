@@ -28,6 +28,7 @@ import BlogPostCards from "../landingPage/BlogPostCards";
 import HumanResources from "../Pages/ServicesPage/HumanResourcesPage/HumanResources";
 import HumanResourcesContactPage from "../Pages/ServicesPage/HumanResourcesPage/HumanResourcesContactPage.jsx/HumanResourcesContact";
 import FreeConsultation from "../Pages/ServicesPage/FreeConsultationPage/FreeConsultationPage";
+import BlogRedirect from "../../components/Navbar/BlogRedirect";
 const AdminPanelRoutes = React.lazy(() =>
   import("../adminPanel/adminRoutes/AdminPanelRoutes")
 );
@@ -70,7 +71,7 @@ function AppRouter() {
           "/signup": <SignUpPage />,
           "/apply": <LandingPage />,
           "/admin/*": <AdminPanelRoutes />,
-          "/blog" : <BlogPostCards/>
+          "/blog" :  <BlogRedirect/>        
         }}
       />
     </Suspense>

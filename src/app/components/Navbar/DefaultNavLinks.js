@@ -69,6 +69,10 @@ export const DefaultNavLinks = [
     ]
   },
   {
+    label: "Blog",
+    route: "/blog",
+  },
+  {
     label: "Apply Now",
     route: "/apply",
   },
