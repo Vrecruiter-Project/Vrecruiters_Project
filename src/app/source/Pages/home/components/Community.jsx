@@ -84,13 +84,13 @@ const Community = () => {
                   alt="Community 2"
                 />
               </SwiperSlide>
-              <SwiperSlide className="bg-center bg-cover w-[360px] h-[360px]">
+{/*               <SwiperSlide className="bg-center bg-cover w-[360px] h-[360px]">
                 <img
                   className="block w-full h-full rounded-md"
                   src={communitypic3}
                   alt="Community 3"
                 />
-              </SwiperSlide>
+              </SwiperSlide> */}
               <SwiperSlide className="bg-center bg-cover w-[360px] h-[360px]">
                 <img
                   className="block w-full h-full rounded-md"
